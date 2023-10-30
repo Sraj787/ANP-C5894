@@ -52,7 +52,7 @@ public class TeacherController {
 		return new ResponseEntity<String>("Deleted Successfully..", HttpStatus.OK);
     }
 	
-	/*
+	
 	//use get mapping to fetch data from db table
 	@GetMapping("/Teacher/getTeacherByname/{tname}")
 	public ResponseEntity<List<Teacher>> getTeacherByName(@PathVariable("tname") String tname)
@@ -74,7 +74,7 @@ public class TeacherController {
         List<Teacher> teachers=ts.FindBytphone(tphone);
 		return new ResponseEntity<>(teachers,HttpStatus.OK);
 	}
-	*/
+	
 		
 }
 
