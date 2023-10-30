@@ -9,8 +9,8 @@ import com.SpringBoot.Curd.Entity.Teacher;
 
 public interface TeacherRepository extends JpaRepository<Teacher, Integer>{
 
-	/*List<Teacher> findBytphone(long tphone);
+	List<Teacher> findBytphone(long tphone);
 	List<Teacher> findBytname(String tname);
-	List<Teacher> findByDesignation(String designation);*/
+	List<Teacher> findByDesignation(String designation);
 
 }
