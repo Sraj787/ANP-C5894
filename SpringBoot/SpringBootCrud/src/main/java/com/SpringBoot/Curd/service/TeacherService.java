@@ -14,12 +14,12 @@ public interface TeacherService {
 	void deleteTeacherDetails(int tid);
 	
 
-	/*List<Teacher> findBytname(String tname);
+	List<Teacher> findBytname(String tname);
 
 	List<Teacher> findBydesignation(String designation);
 
 	List<Teacher> FindBytphone(long tphone);
-	*/
+	
 
 
 }
