@@ -44,7 +44,7 @@ public class TeacherServiceImpl implements TeacherService {
 		orElseThrow(()-> new TeacherIdNotFoundException("Teacher Id is not correct"));
 	    trepo.deleteById(tid);
 	}
-/*
+
 	@Override
 	public List<Teacher> findBytname(String tname) {
 		// TODO Auto-generated method stub
@@ -64,7 +64,7 @@ public class TeacherServiceImpl implements TeacherService {
 		// TODO Auto-generated method stub
 		return trepo.findBytphone(tphone);
 	}
-*/
+
 	
 
 	
