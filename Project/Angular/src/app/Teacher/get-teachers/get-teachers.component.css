@@ -1,0 +1,27 @@
+
+.btn-primarys{
+   margin: 6Px;
+   padding: 6px;
+   float: right;
+   width: 20%;
+   background-color:lightskyblue;
+}
+
+.nav-link{
+    margin-left: 40px;
+    padding: 10px;
+    float: right;
+    width: 20%;
+ }
+input[type=search] {
+    float:left;
+    width: 50%;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 200px;
+    font-size: 17px;
+}
+.row{
+    float: left;
+}

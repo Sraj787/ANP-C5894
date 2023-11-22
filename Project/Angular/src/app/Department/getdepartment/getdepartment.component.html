@@ -1,0 +1,30 @@
+
+
+<div class = "row">
+    <h2> Department List</h2>
+</div>
+
+<table class = "table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Department Id</th>
+            <th> Department Name</th>
+            <th> Hod Name </th>
+            <th> Nunmber Of Employee</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let department of departments" >
+            <td> {{ department.did }}</td>
+            <td> {{ department.dname }} </td>
+            <td> {{ department.dhod }} </td>
+            <td> {{ department.noOfEmployee}} </td>
+            <td>
+                <button (click) = "updateDepartment(department.did)" class = "btn btn-primary">Update</button>
+                <button (click) = "deleteDepartment(department.did)" class = "btn btn-danger" style="margin-left: 10px">Delete</button>
+                
+            </td>
+        </tr>
+    </tbody>
+</table>

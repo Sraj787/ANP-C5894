@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="card col-md-6 offset-md-3 offset-md-3">
+        <div class="row">
+            <h3 class="text-center"> Update Department Details </h3>
+            <hr />
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit()">
+
+                    <div class="form-group">
+                        <label> Department ID</label>
+                        <input type="text" class="form-control" id="DepartmentId"  [(ngModel)]="department.did"
+                            name="DepartmentId">
+                    </div>
+
+                    <div class="form-group">
+                        <label> Department Name</label>
+                        <input type="text" class="form-control" id="DepartmentName"  [(ngModel)]="department.dname"
+                            name="DepartmentName">
+                    </div>
+
+                    <div class="form-group">
+                        <label> Hod Name</label>
+                        <input type="text" class="form-control" id="HodName"  [(ngModel)]="department.dhod"
+                            name="HodName">
+                    </div>
+
+                    <div class="form-group">
+                        <label> Number of Employee</label>
+                        <input type="text" class="form-control" id="employees"  [(ngModel)]="department.noOfEmployee"
+                            name="employees">
+                    </div>
+                    <br>
+                    <div class="d-grid gap-2"><button class="btn btn-success" type="submit">Submit</button></div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

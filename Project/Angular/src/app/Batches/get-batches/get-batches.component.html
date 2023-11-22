@@ -1,0 +1,30 @@
+
+<div class = "row">
+    <h2> Batches  List</h2>
+</div>
+
+<table class = "table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th> Batch Name</th>
+            <th> Subject </th>
+            <th> StartDate</th>
+            <th> EndDate </th>
+            <th> Duration</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let batches of batches" >
+            <td> {{ batches.bname }} </td>
+            <td> {{ batches.subject}}</td>
+            <td> {{ batches.startdate }} </td>
+            <td> {{ batches.enddate }} </td>
+            <td> {{ batches.duration }} </td>
+            <td>
+                <button (click) = "updateBatches(batches.bid)" class = "btn btn-primary">Update</button>
+                <button (click) = "deleteBatches(batches.bid)" class = "btn btn-danger" style="margin-left: 10px">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,36 @@
+<form class="form-inline" (ngSubmit)="onSubmit()" >
+    <input class="form-control" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="tname" name="tname">
+    <button (click) = "getTeacherName(tname)" class = "btn btn-primarys" type="submit">Search</button>
+</form>
+<br>
+<br>
+<div class = "row">
+    <h2> Teachers List</h2>
+</div>
+
+<table class = "table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th> First Name</th>
+            <th> surName </th>
+            <th> Email Id</th>
+            <th> PhoneNo</th>
+            <th> Designation</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let teacher of teachers" >
+            <td> {{ teacher.tname}} </td>
+            <td> {{ teacher.tsurname}} </td>
+            <td> {{ teacher.email }} </td>
+            <td> {{ teacher.tphone }} </td>
+            <td> {{ teacher.designation }} </td>
+            <td>
+                <button (click) = "updateTeacher(teacher.tid)" class = "btn btn-primary">Update</button>
+                <button (click) = "deleteTeacher(teacher.tid)" class = "btn btn-danger" style="margin-left: 10px">Delete</button>
+                <button (click) = "teacherDetails(teacher.tid)" class = "btn btn-primary" style="margin-left: 10px">View</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
