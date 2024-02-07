@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+  <div class="text-center">
+    <h3 class="text-center" style="color:white; font-weight: bolder; float:right; margin-left:10px">{{ title }}</h3>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ms-auto">
+      <button type="button" class="btn btn-primary btn-lg" routerLink="addproducts" routerLinkActive="active">Add Product</button>
+      <button  type="button" class="btn btn-primary btn-lg" routerLink="products" routerLinkActive="active">Products</button>
+      <button type="button" class="btn btn-primary btn-lg" routerLink="addcategories" routerLinkActive="active">Add Category</button>
+      <button type="button" class="btn btn-primary btn-lg" routerLink="categories" routerLinkActive="active">Categories</button>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet> 
+</div>
+

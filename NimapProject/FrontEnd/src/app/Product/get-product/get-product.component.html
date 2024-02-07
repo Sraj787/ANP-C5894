@@ -1,0 +1,32 @@
+<section class="background" style="background-color: #508bfc;">
+    <div class="container  h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-10 col-md-6 col-lg-6 col-xl-5">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+<h3> View Product Details</h3>
+<div>
+    <div  *ngIf="productDetails">
+        <h4>Product:</h4>
+        <label><b>Product Name:</b></label> {{productDetails.productName}}
+    </div>
+    <div>
+        <label><b>Product Details: </b></label>{{productDetails.productDetails}}
+    </div>
+    <h4>Category:</h4>
+    <div>
+        <label><b>Category</b></label> {{productDetails.category.category}}
+    </div>
+    <div>
+        <label><b>CategoryDetails</b></label> {{productDetails.category.categoryDetails }}
+    </div>
+</div>
+<br>
+    <br>
+    <button class="btn btn-success btn-lg btn-block" routerLink="/products" routerLinkActive="active">reset</button>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+</section>

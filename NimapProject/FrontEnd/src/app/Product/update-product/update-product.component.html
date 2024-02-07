@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="card col-md-6 offset-md-3 offset-md-3">
+        <div class="row">
+            <h3 class="text-center"> Update Teacher Details </h3>
+            <hr />
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit()">
+
+                    <div class="form-group">
+                        <label> Product Name</label>
+                        <input type="text" class="form-control" id="ProductName" placeholder="pn" [(ngModel)]="product.productName"
+                            name="ProductName">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Product Details</label>
+                        <input type="text" class="form-control" id="ProductDetails" placeholder="pd" [(ngModel)]="product.productDetails"
+                            name="ProductDetails">
+                    </div>
+
+                    
+                    <br>
+                    <div class="d-grid gap-2"><button class="btn btn-success" type="submit">Submit</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

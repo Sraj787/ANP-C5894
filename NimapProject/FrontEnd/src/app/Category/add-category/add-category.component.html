@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="card col-md-6 offset-md-3 offset-md-3">
+        <div class="row">
+            <h3 class="text-center"> Add Teacher Details </h3>
+            <hr />
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit()">
+
+                    <div class="form-group">
+                        <label> First Name</label>
+                        <input type="text" class="form-control" id="categoryName" [(ngModel)]="category.category"
+                            name="categoryName">
+                    </div>
+
+                    <div class="form-group">
+                        <label>  SurName</label>
+                        <input type="text" class="form-control" id="categoryDetails" [(ngModel)]="category.categoryDetails"
+                            name="categoryDetails">
+                    </div>
+                    <br>
+                    <div class="d-grid gap-2"><button class="btn btn-success" type="submit">Submit</button></div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
