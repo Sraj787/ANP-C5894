@@ -1,10 +1,8 @@
 package com.SpringBoot.CategoryProduct.Service;
 
-import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import com.SpringBoot.CategoryProduct.Entity.Category;
 import com.SpringBoot.CategoryProduct.Exceptions.CategoryException;
@@ -22,17 +20,13 @@ public class CategoryService {
 	}
 	
 	//Retrieved the Category using the Pagination
-	public List<Category> getCategoryUsingPaging(int page,int size){
-		Pageable pageable = PageRequest.of(page, size);
-		List<Category> categorylist = categoryRepo.findCategory(pageable);
-		return categorylist;
+	public Page<Category> getCategoryUsingPaging(Pageable pageable){
+		return categoryRepo.findAll(pageable);
 	}
 	
 	//Retrieved the Category Using the sorting
-	public Iterable<Category> getSortCategoryUsingSorting(){
-		String sortBy = "categoryName";
-		List<Category> categorylist = (List<Category>) categoryRepo.sortCategory(Sort.by(Sort.Direction.DESC,sortBy));
-		return categorylist;
+	public Page<Category> getCategoryUsingSorting(Pageable pageable){
+		return categoryRepo.findAll(pageable);
 	}
 	
 	//Creating the service To retrieved the category by using categoryId
