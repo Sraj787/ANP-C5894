@@ -9,9 +9,4 @@ import com.SpringBoot.CategoryProduct.Entity.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Integer>{
 
-	@Query("from Product")
-	public List<Product> findProduct(Pageable pageable);
-	
-	@Query("from Product")
-	public Iterable<Product> sortProduct(Sort sort);
 }
