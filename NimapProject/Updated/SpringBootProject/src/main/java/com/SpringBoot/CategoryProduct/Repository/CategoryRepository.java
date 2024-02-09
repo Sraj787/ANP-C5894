@@ -11,9 +11,4 @@ import com.SpringBoot.CategoryProduct.Entity.Category;
 
 public interface CategoryRepository extends JpaRepository<Category, Integer> {
 
-	@Query("from Category")
-	public List<Category> findCategory(Pageable pageable);
-	
-	@Query("from Category")
-	public Iterable<Category> sortCategory(Sort sort);
 }
