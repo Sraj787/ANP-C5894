@@ -1,10 +1,8 @@
 package com.SpringBoot.CategoryProduct.Service;
 
-import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import com.SpringBoot.CategoryProduct.Entity.Product;
 import com.SpringBoot.CategoryProduct.Exceptions.ProductExceptions;
@@ -21,16 +19,13 @@ public class ProductService{
 		return productrepo.save(product);
 	}
 	
-	public List<Product> getProductUsingPaging(int page,int size){
-		Pageable pageable = PageRequest.of(page, size);
-		List<Product> productlist = productrepo.findProduct(pageable);
-		return productlist;
+	public Page<Product> getProductUsingPaging(Pageable pageable){
+		return productrepo.findAll(pageable);
+		
 	}
 	
-	public Iterable<Product> getSortProductUsingSorting(){
-		String sortBy = "productName";
-		List<Product> productlist = (List<Product>) productrepo.sortProduct(Sort.by(Sort.Direction.ASC,sortBy));
-		return productlist;
+	public Page<Product> getProductUsingSorting(Pageable pageable){
+		return productrepo.findAll(pageable);
 	}
 	
 	
