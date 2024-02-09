@@ -1,9 +1,10 @@
 package com.SpringBoot.CategoryProduct.Controller;
 
-import java.util.List;
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -18,19 +19,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.SpringBoot.CategoryProduct.Entity.Category;
 import com.SpringBoot.CategoryProduct.Exceptions.CategoryException;
+import com.SpringBoot.CategoryProduct.Exceptions.ProductExceptions;
 import com.SpringBoot.CategoryProduct.Service.CategoryService;
-import com.SpringBoot.CategoryProduct.Service.ProductService;
+
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api")
 public class CategoryController {
 
 	@Autowired
 	CategoryService cs;
-
-	@Autowired
-	ProductService ps;
 
 	/*
 	 * Adding the Categories using PostMapping localhost:8080/api/categories
@@ -46,31 +44,30 @@ public class CategoryController {
 	 * localhost:8080/api/categories?page=1 get the 3 product in one page
 	 */
 	@GetMapping("/categories")
-	public ResponseEntity<List<Category>> getCategory(@RequestParam(defaultValue = "0") int page,
-			@RequestParam(defaultValue = "3") int size) throws CategoryException {
-		List<Category> category = cs.getCategoryUsingPaging(page, size);
-
-		if (category.size() <= 0) {
+	public Page<Category> getCategory(@RequestParam(defaultValue = "0") int page,
+			@RequestParam(defaultValue = "3") int size) {
+		if (size <= 0) {
 			throw new CategoryException("Category not exist");
 		}
-		return ResponseEntity.of(Optional.of(category));
+		return cs.getCategoryUsingPaging(PageRequest.of(page, size));
 	}
 
 	/*
 	 * sorting implementation In Category show the product with sorted 
 	 * localhost:8080/api/categories/sorting
 	 */
-	@GetMapping("/categories/sorting")
-	public ResponseEntity<Iterable<Category>> getSortCategory() throws CategoryException {
-
-		List<Category> category = (List<Category>) cs.getSortCategoryUsingSorting();
-
-		if (category.size() <= 0) {
-			throw new CategoryException("Category not exist");
+	@GetMapping("/categories/sort")
+	public Page<Category> getCategoryUsingSorting(@RequestParam(defaultValue = "0") int page,
+			@RequestParam(defaultValue = "3") int size) {
+		if (size <= 0) {
+			throw new ProductExceptions("Category not exist");
 		}
-		return ResponseEntity.of(Optional.of(category));
+		String sortBy = "category";
+		Sort sort = Sort.by(Sort.Direction.ASC, sortBy);
+		Pageable pageable = PageRequest.of(page, size, sort);
+		return cs.getCategoryUsingSorting(pageable);
 	}
-
+	
 	/*
 	 * updating the categories using categoryId
 	 * localhost:8080/api/categories/{categoryId}
