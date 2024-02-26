@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\CsharpFundamentals\bin\Debug\net8.0\CsharpFundamentals.exe
+C:\Users\Nimap\source\repos\CsharpFundamentals\bin\Debug\net8.0\CsharpFundamentals.deps.json
+C:\Users\Nimap\source\repos\CsharpFundamentals\bin\Debug\net8.0\CsharpFundamentals.runtimeconfig.json
+C:\Users\Nimap\source\repos\CsharpFundamentals\bin\Debug\net8.0\CsharpFundamentals.dll
+C:\Users\Nimap\source\repos\CsharpFundamentals\bin\Debug\net8.0\CsharpFundamentals.pdb
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\CsharpFundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\CsharpFundamentals.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\CsharpFundamentals.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\CsharpFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\CsharpFundamentals.dll
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\refint\CsharpFundamentals.dll
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\CsharpFundamentals.pdb
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\CsharpFundamentals.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\CsharpFundamentals\obj\Debug\net8.0\ref\CsharpFundamentals.dll

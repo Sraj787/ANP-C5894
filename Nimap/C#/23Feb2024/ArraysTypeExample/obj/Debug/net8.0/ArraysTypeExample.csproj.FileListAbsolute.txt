@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\ArraysTypeExample\bin\Debug\net8.0\ArraysTypeExample.exe
+C:\Users\Nimap\source\repos\ArraysTypeExample\bin\Debug\net8.0\ArraysTypeExample.deps.json
+C:\Users\Nimap\source\repos\ArraysTypeExample\bin\Debug\net8.0\ArraysTypeExample.runtimeconfig.json
+C:\Users\Nimap\source\repos\ArraysTypeExample\bin\Debug\net8.0\ArraysTypeExample.dll
+C:\Users\Nimap\source\repos\ArraysTypeExample\bin\Debug\net8.0\ArraysTypeExample.pdb
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\ArraysTypeExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\ArraysTypeExample.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\ArraysTypeExample.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\ArraysTypeExample.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\ArraysTypeExample.dll
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\refint\ArraysTypeExample.dll
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\ArraysTypeExample.pdb
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\ArraysTypeExample.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\ArraysTypeExample\obj\Debug\net8.0\ref\ArraysTypeExample.dll
