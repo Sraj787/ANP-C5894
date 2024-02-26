@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\ListExample\bin\Debug\net8.0\ListExample.exe
+C:\Users\Nimap\source\repos\ListExample\bin\Debug\net8.0\ListExample.deps.json
+C:\Users\Nimap\source\repos\ListExample\bin\Debug\net8.0\ListExample.runtimeconfig.json
+C:\Users\Nimap\source\repos\ListExample\bin\Debug\net8.0\ListExample.dll
+C:\Users\Nimap\source\repos\ListExample\bin\Debug\net8.0\ListExample.pdb
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\ListExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\ListExample.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\ListExample.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\ListExample.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\ListExample.dll
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\refint\ListExample.dll
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\ListExample.pdb
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\ListExample.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\ListExample\obj\Debug\net8.0\ref\ListExample.dll

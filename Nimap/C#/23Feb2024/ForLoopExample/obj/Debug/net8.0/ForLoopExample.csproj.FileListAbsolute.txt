@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\ForLoopExample\bin\Debug\net8.0\ForLoopExample.exe
+C:\Users\Nimap\source\repos\ForLoopExample\bin\Debug\net8.0\ForLoopExample.deps.json
+C:\Users\Nimap\source\repos\ForLoopExample\bin\Debug\net8.0\ForLoopExample.runtimeconfig.json
+C:\Users\Nimap\source\repos\ForLoopExample\bin\Debug\net8.0\ForLoopExample.dll
+C:\Users\Nimap\source\repos\ForLoopExample\bin\Debug\net8.0\ForLoopExample.pdb
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\ForLoopExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\ForLoopExample.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\ForLoopExample.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\ForLoopExample.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\ForLoopExample.dll
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\refint\ForLoopExample.dll
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\ForLoopExample.pdb
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\ForLoopExample.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\ForLoopExample\obj\Debug\net8.0\ref\ForLoopExample.dll
