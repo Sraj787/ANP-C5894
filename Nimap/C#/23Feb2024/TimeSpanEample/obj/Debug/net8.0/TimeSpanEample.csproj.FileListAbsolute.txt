@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\TimeSpanEample\bin\Debug\net8.0\TimeSpanEample.exe
+C:\Users\Nimap\source\repos\TimeSpanEample\bin\Debug\net8.0\TimeSpanEample.deps.json
+C:\Users\Nimap\source\repos\TimeSpanEample\bin\Debug\net8.0\TimeSpanEample.runtimeconfig.json
+C:\Users\Nimap\source\repos\TimeSpanEample\bin\Debug\net8.0\TimeSpanEample.dll
+C:\Users\Nimap\source\repos\TimeSpanEample\bin\Debug\net8.0\TimeSpanEample.pdb
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\TimeSpanEample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\TimeSpanEample.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\TimeSpanEample.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\TimeSpanEample.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\TimeSpanEample.dll
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\refint\TimeSpanEample.dll
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\TimeSpanEample.pdb
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\TimeSpanEample.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\TimeSpanEample\obj\Debug\net8.0\ref\TimeSpanEample.dll

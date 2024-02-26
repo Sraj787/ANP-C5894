@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\StringFundamentals\bin\Debug\net8.0\StringFundamentals.exe
+C:\Users\Nimap\source\repos\StringFundamentals\bin\Debug\net8.0\StringFundamentals.deps.json
+C:\Users\Nimap\source\repos\StringFundamentals\bin\Debug\net8.0\StringFundamentals.runtimeconfig.json
+C:\Users\Nimap\source\repos\StringFundamentals\bin\Debug\net8.0\StringFundamentals.dll
+C:\Users\Nimap\source\repos\StringFundamentals\bin\Debug\net8.0\StringFundamentals.pdb
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\StringFundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\StringFundamentals.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\StringFundamentals.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\StringFundamentals.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\StringFundamentals.dll
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\refint\StringFundamentals.dll
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\StringFundamentals.pdb
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\StringFundamentals.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\StringFundamentals\obj\Debug\net8.0\ref\StringFundamentals.dll

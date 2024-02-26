@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\SwitchExample\bin\Debug\net8.0\SwitchExample.exe
+C:\Users\Nimap\source\repos\SwitchExample\bin\Debug\net8.0\SwitchExample.deps.json
+C:\Users\Nimap\source\repos\SwitchExample\bin\Debug\net8.0\SwitchExample.runtimeconfig.json
+C:\Users\Nimap\source\repos\SwitchExample\bin\Debug\net8.0\SwitchExample.dll
+C:\Users\Nimap\source\repos\SwitchExample\bin\Debug\net8.0\SwitchExample.pdb
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\SwitchExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\SwitchExample.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\SwitchExample.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\SwitchExample.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\SwitchExample.dll
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\refint\SwitchExample.dll
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\SwitchExample.pdb
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\SwitchExample.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\SwitchExample\obj\Debug\net8.0\ref\SwitchExample.dll
