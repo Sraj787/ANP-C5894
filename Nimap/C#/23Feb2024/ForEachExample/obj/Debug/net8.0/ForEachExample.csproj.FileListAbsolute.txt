@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\ForEachExample\bin\Debug\net8.0\ForEachExample.exe
+C:\Users\Nimap\source\repos\ForEachExample\bin\Debug\net8.0\ForEachExample.deps.json
+C:\Users\Nimap\source\repos\ForEachExample\bin\Debug\net8.0\ForEachExample.runtimeconfig.json
+C:\Users\Nimap\source\repos\ForEachExample\bin\Debug\net8.0\ForEachExample.dll
+C:\Users\Nimap\source\repos\ForEachExample\bin\Debug\net8.0\ForEachExample.pdb
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\ForEachExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\ForEachExample.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\ForEachExample.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\ForEachExample.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\ForEachExample.dll
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\refint\ForEachExample.dll
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\ForEachExample.pdb
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\ForEachExample.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\ForEachExample\obj\Debug\net8.0\ref\ForEachExample.dll
