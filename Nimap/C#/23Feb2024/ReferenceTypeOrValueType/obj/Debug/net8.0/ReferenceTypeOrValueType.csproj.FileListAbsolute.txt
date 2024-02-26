@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\bin\Debug\net8.0\ReferenceTypeOrValueType.exe
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\bin\Debug\net8.0\ReferenceTypeOrValueType.deps.json
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\bin\Debug\net8.0\ReferenceTypeOrValueType.runtimeconfig.json
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\bin\Debug\net8.0\ReferenceTypeOrValueType.dll
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\bin\Debug\net8.0\ReferenceTypeOrValueType.pdb
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\ReferenceTypeOrValueType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\ReferenceTypeOrValueType.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\ReferenceTypeOrValueType.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\ReferenceTypeOrValueType.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\ReferenceTypeOrValueType.dll
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\refint\ReferenceTypeOrValueType.dll
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\ReferenceTypeOrValueType.pdb
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\ReferenceTypeOrValueType.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\ReferenceTypeOrValueType\obj\Debug\net8.0\ref\ReferenceTypeOrValueType.dll

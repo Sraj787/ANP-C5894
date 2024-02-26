@@ -1,0 +1,14 @@
+C:\Users\Nimap\source\repos\ShippingMethods\bin\Debug\net8.0\ShippingMethods.exe
+C:\Users\Nimap\source\repos\ShippingMethods\bin\Debug\net8.0\ShippingMethods.deps.json
+C:\Users\Nimap\source\repos\ShippingMethods\bin\Debug\net8.0\ShippingMethods.runtimeconfig.json
+C:\Users\Nimap\source\repos\ShippingMethods\bin\Debug\net8.0\ShippingMethods.dll
+C:\Users\Nimap\source\repos\ShippingMethods\bin\Debug\net8.0\ShippingMethods.pdb
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\ShippingMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\ShippingMethods.AssemblyInfoInputs.cache
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\ShippingMethods.AssemblyInfo.cs
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\ShippingMethods.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\ShippingMethods.dll
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\refint\ShippingMethods.dll
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\ShippingMethods.pdb
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\ShippingMethods.genruntimeconfig.cache
+C:\Users\Nimap\source\repos\ShippingMethods\obj\Debug\net8.0\ref\ShippingMethods.dll
